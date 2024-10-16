@@ -4,15 +4,11 @@ public class Product {
     private String course;
 
     public Product() {
-        this.name = null;
-        this.email = null;
-        this.course = null;
     }
 
     public Product(String name) {
         this.name = name;
-        this.email = null;
-        this.course = null;
+
     }
     public Product(String name,String email,String course)
     {
@@ -45,12 +41,4 @@ public class Product {
         this.course = course;
     }
 
-    @Override
-    public String toString() {
-        return "Product{" +
-                "name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", course='" + course + '\'' +
-                '}';
-    }
 }
